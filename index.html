@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<title>Commerize - </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.typing-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 500px) {
+  .typing-demo{
+display:none;
+}
+.typing-demo-2{
+display:none;
+}
+.heading-mobile{
+
+color:white;
+font-size:33px;
+}
+.bgimg-1 {
+  min-height:100%;
+  max-width:100%;
+}
+.logo-image{
+margin-top:8% !important;
+margin-bottom:8% !important;
+}
+.w3-container.first-text{
+  font-size: 26px !important;
+}
+.w3-container.about-section{
+
+  font-size:26px !important;
+}
+}
+@media only screen and (max-width: 850px) {
+  .typing-demo{
+font-size: 25px !important;
+}
+  .typing-demo-2{
+font-size: 15px !important;
+}
+.bgimg-1 {
+  min-height:100%;
+  max-width:100%;
+}
+.heading-texts{
+  margin-top:8%;
+}
+.logo-image{
+margin-top:8% !important;
+}
+.w3-container.contact-section{
+
+  margin-left:0% !important;
+  margin-right: 0% !important;
+}
+.calendly-inline-widget{
+width:300px !important;
+}
+.w3-container.do-section{
+
+  margin-left:0% !important;
+  margin-right: 0% !important;
+
+}
+}
+
+@media only screen and (min-width: 850px) {
+  .typing-demo{
+font-size: 30px !important;
+}
+  .typing-demo-2{
+font-size: 20px !important;
+}
+.bgimg-1 {
+  min-height:100%;
+}
+.heading-texts{
+  margin-top:2%;
+}
+.logo-image{
+margin-top:10% !important;
+}
+.calendly-inline-widget{
+width:250px !important;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .typing-demo{
+font-size: 40px !important;
+margin-top:15% !important;
+}
+  .typing-demo-2{
+font-size: 20px !important;
+}
+.bgimg-1 {
+  min-height:100%;
+}
+.logo-image{
+margin-top:10% !important;
+}
+.calendly-inline-widget{
+width:400px !important;
+}
+.heading-mobile{
+
+display:none;
+}
+}
+@media only screen and (min-width: 1600px) {
+  .calendly-inline-widget{
+width:500px !important;
+}
+.heading-mobile{
+
+display:none;
+}
+}
+.typing-demo {
+  width: 40ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  color:white;
+  font-size:3em;
+}
+.typing-demo-2 {
+  animation-delay: 2s;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2em;
+  color:white;
+}
+
+.sub-heading{
+
+  font-size:20px;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+</style>
+<body>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <center>
+    <img class ="logo-image"src="/Users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/COMMERIZE-icon.png" style="width:150px;margin-bottom:-12%;margin-top:5%;">
+    <div class ="heading-texts">
+    <div class="typing-wrapper">
+      <div class="heading-mobile">
+        We build & scale<br> winning shopify stores.
+        <p style="font-size:20px;margin-top:60px;margin-bottom:70px;">We bring your E-Commerce brand<br> 20% more revenue <br>without any extra marketing costs.</p>
+      </div>
+      <div class="typing-demo" style="margin-bottom:40px;margin-top:20%;">
+       We build & scale winning shopify stores.
+      </div>
+  </div>
+  <div class="typing-wrapper">
+    <div class="typing-demo-2" style="margin-bottom:70px;">
+      We bring your E-Commerce brand 20% more revenue without any extra marketing costs.
+    </div>
+</div>
+</div>
+<a href="#about"><button style="font-size:25px;background-color: steelblue;border:none;color:white;padding:10px;">Let´s start.</button></a></center>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<div class="w3-container first-text" style="padding:64px 16px;padding-left:20%;padding-right:20%;font-size:45px;margin-bottom:8%;">
+<p>We use <span style="color:steelblue;text-decoration: underline;">data driven</span> strategies<br> & create <span style="color:steelblue;text-decoration: underline;">sales oriented</span> user experiences.</p>
+<p>We are a specialized <span style="color:green;text-decoration: underline;">Shopify<br>& Shopify Plus</span> development and consulting agency.</p>
+<a href="#about"><button style="font-size:25px;background-color: steelblue;border:none;color:white;padding:10px;">Learn More</button></a>
+</div>
+
+<!-- WE DO Section -->
+<div class="w3-container do-section" style="padding:64px 16px;margin-left:15%;margin-right:15%;" id="team">
+  <h1 class="w3-center" style="font-size:45px;"><b>Your external Shopify Partner</b></h1>
+  <p class="w3-center w3-large">Shopify limited only by the imagination</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <img src="/users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/strategy.png" alt="strategy" style="width:30%">
+          <h3>Strategy</h3>
+          <p>Optimization and data driven e-commerce strategies Discovery + Planning, Brand Positioning, Analytics, A/B & Multivariate Testing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <img src="/users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/big-data.png" alt="big-data" style="width:30%">
+          <h3>Data</h3>
+          <p>We give brands the capabilities to make data-driven decisions that feedback into their continous e-commerce strategy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <img src="/users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/design.png" alt="design" style="width:30%;">
+          <h3>UX-Design</h3>
+          <p>Dedicated shopify and shopify plus coding-team that creates sales oriented user experience designs that increase sales.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <img src="/users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/coding.png" alt="coding" style="width:30%">
+          <h3>Development</h3>
+          <p>Custom theme solutions that increases the conversion rate to scale your e-commerce brand beyond your imagination</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- WORK SECTION -->
+<div class="w3-container" style="margin-left:15%;margin-right: 15%;" id="work">
+  <h3 class="w3-center">Why customers love us:</h3>
+  <h1 class="w3-center" style="color:steelblue;text-decoration: underline;">Our Results</h1>
+
+<div class="w3-container" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h1 style="font-weight: bold;color:steelblue;text-decoration: underline;">50% more revenue through UX-Design</h1>
+      <h3>Kozakh Jewelry</h3>
+      <p>We have helped the Florida based jewelry brand Kozakh to reach 50% more revenue within the first 6 months through optimizing their shopify theme. After finding what worked for them we launched an all out attack using our proven strategies.</p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="/Users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/Kozakh.png" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+  <div class="w3-row-padding" style="margin-top:5%;">
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="/Users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/Narah Soleigh Statistics.png" alt="Buildings" width="700" height="394">
+    </div>
+    <div class="w3-col m6">
+      <h1 style="font-weight: bold;color:steelblue;text-decoration: underline;text-align: right;">Displaying USP´s = 30% more revenue</h1>
+      <h3 style="text-align: right;">German Apparel Brand</h3>
+      <p style="text-align: right;">For this german online store we were able to increase their revenue by 30% within the first 30 days by showcasing the unique selling points to their store visitors.</p>
+    </div>
+  </div>
+  <div class="w3-row-padding"style="margin-top:5%;">
+    <div class="w3-col m6">
+      <h1 style="font-weight: bold;color:steelblue;text-decoration: underline;">Converted to Shopify 2.0 & doubled the load speeds.</h1>
+      <h3>Jewelry Brand from LA</h3>
+      <p>Implementing an entire new theme and optimizing it towards their needs got us double the load speeds and better usability which created a brand aligned user experience. Here we got them a 20% higher conversion rate.</p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="/Users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/LA Jewelry Brand.png" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+ 
+  </div>
+
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-padding-64" style="margin-left: 0%;margin-right: 0%; margin-bottom: 12%;background-color: steelblue;color:white;">
+  <div class="w3-third">
+    <span class="w3-xxlarge">4+</span>
+    <br>Growing Clients
+  </div>
+  <div class="w3-third">
+    <span class="w3-xxlarge">$2M+</span>
+    <br>Returns generated
+  </div>
+  <div class="w3-third">
+    <span class="w3-xxlarge">300%</span>
+    <br>Average ROI
+  </div>
+</div>
+
+<!-- About Section -->
+
+<div class ="w3-container" style="background-color: black;margin-bottom:10%;" id="About">
+  <div class="w3-container about-section" style="padding:64px 16px;padding-left:20%;padding-right:20%;font-size:45px;color:white;">
+    <p style="font-size:50px;font-weight:bold;text-decoration: underline;"><span style="color:green;text-decoration: underline;">Shopify<br>& Shopify Plus</span></p>
+    <p>We are the GO TO Shopify Partner for<br> fashion, beauty & lifestyle brands<br> with <span style="color:steelblue;text-decoration: underline;">limitless ambitions.</span></p>
+    <p>We dont just support our clients we help them succeed.</p>
+    <a href="#about"><button style="font-size:25px;background-color: steelblue;border:none;color:white;padding:10px;">Learn More</button></a>
+    </div>
+</div>
+
+<h1 class ="w3-center">Will you be our next success story?</h1>
+<h3 class ="w3-center">Lets chat about how we can scale your brand!</h3>
+<!-- Contact Section -->
+<div class="w3-container contact-section" style="padding:128px 16px;margin-left: 15%;margin-right: 15%;"id="contact">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/commerize_digital/30min" style="width:500px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+    </div>
+    <div class="w3-col m6">
+      <img src="/Users/andreaswaldele/Desktop/Commerize 2.0 Assets/images/Andreas-Image.png" alt="Andreas">
+      <h1>Schedule a call with Andreas</h1>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>© 2022 Commerize</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
